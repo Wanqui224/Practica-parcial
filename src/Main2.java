@@ -1,3 +1,7 @@
+
+import core.ligatenis.LigaTenis;
+import core.persona.Juez;
+
 public class Main2 {
     
     public static void main(String[] args) {

@@ -4,10 +4,17 @@
  */
 package core.campeonato;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Wanki
  */
 public class Campeonato {
+    private ArrayList<Juego> juegos;
+
+    public Campeonato(ArrayList<Juego> juegos) {
+        this.juegos = juegos;
+    }
     
 }

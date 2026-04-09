@@ -9,5 +9,12 @@ package core.set;
  * @author Wanki
  */
 public class Set {
-    
+ private int puntosJugador1;
+ private int puntosJugador2;
+
+    public Set(int puntosJugador1, int puntosJugador2) {
+        this.puntosJugador1 = puntosJugador1;
+        this.puntosJugador2 = puntosJugador2;
+    }
+ 
 }
